@@ -77,7 +77,7 @@ const Home: NextPage = () => {
 
       <div className="flex flex-row n gap-4">
         <Image src={twitter}  className={`fill-current ${!Info.twitter_username ? 'text-light-grey' : 'text-navy-blue dark:text-white'}`} />
-        <a className={`sans-serif ${!Info.twitter_username  ? 'text-light-grey bg-transparent' : 'text-light-grey bg-transparent dark:text-white'}`} href={'https://twitter.com/' + Info.twitter_username}> <p> {!Info.twitter_username ? 'Not Available' : Info.twitter_username} </p></a> 
+        <a className={`sans-serif ${!Info.twitter_username ? 'text-light-grey bg-transparent' : 'text-light-grey bg-transparent dark:text-white'}`} href={'https://twitter.com/' + Info.twitter_username}> <p> {!Info.twitter_username ? 'Not Available' : Info.twitter_username} </p></a> 
       </div>
 
 
